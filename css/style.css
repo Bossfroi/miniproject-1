@@ -1,8 +1,4 @@
 
-.logo{
-  display: none;
-  display: contents;
-  }
 @media (min-width: 768px) and (max-width: 4199.98px) {
   /* No additional styles needed for large screens */
   *{
@@ -12,8 +8,8 @@
 
  .logo{
   margin-left: 70px;
-  width: 5%;
-  height: 3em;
+  width: 50px;
+  height: 50px;
   display: flex;
 }
 
@@ -153,9 +149,11 @@
   margin-left: 600px;
   height: 370px;
   width: 660px;
-  background-color: #7e0b0b;
+  background-color: #bebebe;
   border-radius:  20px 20px;
+  position: absolute;
 }
+
 
 }
 
@@ -313,18 +311,90 @@
   font-size: 20px;
 }
 .logo{
-display: none;
-display: contents;
+height: 20px;
+width: 20px;
+ align-items: center;
+ justify-items: center;
+}
+.navquery{  
+ 
+ font-size: small;
+  
+
+}
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+
+  color: rgb(240, 10, 10);
+}
+
+.active {
+  color: white;
 }
 .maps{
    display: flex;
    justify-content: end;
-   height: 300px;
-   width: 600px;
+   height: 500px;
+   width: 300px;
+  padding-top: 60px;
+   margin-bottom: 200px;
+
 }
+
+
+.regsicon{
+  height: 20px;
+  width: 17px;
+   justify-self:center;
+   margin: 10px;
+   align-items: center;
+   text-align: justify;
+   display: flex;
 }
+.bg-dark{
+  position: absolute;
+} 
 
 .iframe{
   display: flex;
   float: inline-end;
 }
+
+.cp{
+  width: 240px;
+}
+
+
+
+}
+
+
