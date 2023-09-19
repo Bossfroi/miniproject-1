@@ -149,12 +149,24 @@
    display: flex;
   margin-left: 600px;
   height: 370px;
-  width: 660px;
-  background-color: #bebebe;
-  border-radius:  20px 20px;
+  width: 40em;
+
+  border-radius:  50px 50px;
   position: absolute;
+  color: rgb(11, 1, 1);
+}
+.figh {
+  margin-block: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin-right: 320px;
+  color: white;
 }
 
+.x-lfooter{
+  color: white;
+}
 
 }
 
@@ -318,10 +330,7 @@ width: 20px;
  justify-items: center;
 }
 .navquery{  
- 
- font-size: small;
-  
-
+  font-feature-settings: "abvs"
 }
 .mobile-container {
   max-width: 480px;
